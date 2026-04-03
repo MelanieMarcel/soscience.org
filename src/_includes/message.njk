@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+
+<main class="page">
+
+  <header class="header">
+    <img class="logo" src="/assets/logo.png" alt="SoScience — Driving Responsible Innovation" width="240" height="auto">
+  </header>
+
+  <hr class="divider" aria-hidden="true">
+
+  <article class="message">
+    <p class="message-label">{{ label }}</p>
+
+    {{ content | safe }}
+
+    <div class="signature">
+      <p class="signature-script">{{ author }}</p>
+      <p class="signature-title">{{ authorTitle }}</p>
+    </div>
+  </article>
+
+  <footer class="footer">
+    <p class="tagline">Driving&nbsp;&nbsp;·&nbsp;&nbsp;Responsible&nbsp;&nbsp;·&nbsp;&nbsp;Innovation</p>
+  </footer>
+
+</main>
