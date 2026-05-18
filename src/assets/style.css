@@ -134,6 +134,16 @@ body::before {
   hyphens: none;
 }
 
+.signature a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.signature a:hover,
+.signature a:focus-visible {
+  text-decoration: underline;
+}
+
 .signature-name {
   font-family: var(--font-ui);
   font-size: 0.9rem;
